@@ -1,0 +1,23 @@
+{
+    "name": "ecommerce/product-inventory",
+    "description": "A product inventory management package for Laravel e-commerce apps",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ecommerce\\ProductInventory\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ecommerce\\ProductInventory\\ProductInventoryServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.4",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
