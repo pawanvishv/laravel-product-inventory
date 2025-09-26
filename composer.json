@@ -1,5 +1,5 @@
 {
-    "name": "pawanvishv/product-inventory",
+    "name": "pawanvishv/laravel-product-inventory",
     "description": "A product inventory management package for Laravel e-commerce apps",
     "type": "library",
     "autoload": {
@@ -23,7 +23,8 @@
     ],
     "require": {
         "php": "^8.4",
-        "illuminate/support": "^10.0|^11.0|^12.0"
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "pawanvishv/laravel-product-inventory": "@dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
