@@ -1,5 +1,5 @@
 {
-    "name": "ecommerce/product-inventory",
+    "name": "pawanvishv/product-inventory",
     "description": "A product inventory management package for Laravel e-commerce apps",
     "type": "library",
     "autoload": {
